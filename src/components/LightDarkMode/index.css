@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app-bg-container {
+  border: 2px solid #000000;
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px 30px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.dark-mode {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 28px;
+}
+
+.button {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 20px;
+  padding: 15px;
+  border: 2px solid #000000;
+  border-radius: 5px;
+}
+
+@media (max-width: 767px) {
+  .app-bg-container {
+    width: 90%;
+  }
+}
